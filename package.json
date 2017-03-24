@@ -1,0 +1,23 @@
+{
+  "name": "typescript_stu2",
+  "version": "1.0.0",
+  "description": "typescript study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yichengjie/typescript_stu2.git"
+  },
+  "keywords": [
+    "typescript",
+    "yicj"
+  ],
+  "author": "yicj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yichengjie/typescript_stu2/issues"
+  },
+  "homepage": "https://github.com/yichengjie/typescript_stu2#readme"
+}
