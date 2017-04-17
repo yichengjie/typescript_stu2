@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/yichengjie/typescript_stu2/issues"
   },
-  "homepage": "https://github.com/yichengjie/typescript_stu2#readme"
+  "homepage": "https://github.com/yichengjie/typescript_stu2#readme",
+  "devDependencies": {
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2"
+  }
 }

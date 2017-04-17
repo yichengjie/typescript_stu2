@@ -9,10 +9,17 @@ function greeter(person: Person) {
     return "Hello, " + person.firstName + " " + person.lastName;
 }
 
-var user = { firstName: "Jane", lastName: "User" };
 
-let str = greeter(user);
 
-console.info('add(1,2) = ' + add(1,2)) ;
+function test(){
+    var user = { firstName: "Jane", lastName: "User" };
 
-console.info("greeter : " + str) ;
+    let str = greeter(user);
+
+    console.info('add(1,2) = ' + add(1,2)) ;
+
+    console.info("greeter : " + str) ;
+}
+
+export default test ;
+
