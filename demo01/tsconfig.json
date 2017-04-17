@@ -27,6 +27,9 @@
     "target": "es5",
     "sourceMap": true
   },
+  "include": [
+     "src/**/*"
+  ],
   "exclude": [
     "node_modules"
   ]
