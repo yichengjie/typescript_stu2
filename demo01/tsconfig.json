@@ -19,6 +19,10 @@
 // }
 {
   "compilerOptions": {
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "allowJs": true,
     "outDir": "./dist/",
     "target": "es5",
     "sourceMap": true

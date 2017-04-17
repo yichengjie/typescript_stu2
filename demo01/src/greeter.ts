@@ -1,4 +1,4 @@
-import add from './common' ;
+import {add,add2} from './common' ;
 
 interface Person {
     firstName: string;
@@ -10,7 +10,6 @@ function greeter(person: Person) {
 }
 
 
-
 function test(){
     var user = { firstName: "Jane", lastName: "User" };
 
@@ -19,6 +18,7 @@ function test(){
     console.info('add(1,2) = ' + add(1,2)) ;
 
     console.info("greeter : " + str) ;
+    add2.call({name:'yicj'},1,2)
 }
 
 export default test ;
