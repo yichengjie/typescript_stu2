@@ -4,7 +4,9 @@
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
-        "outFile": "./build/tsc.js",
+        "outDir": "./build/",
+        "allowJs": true,
+        "target": "es5",
         "sourceMap": true
     },
     "include": [

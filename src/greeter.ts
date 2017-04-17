@@ -1,3 +1,5 @@
+import add from './common' ;
+
 interface Person {
     firstName: string;
     lastName: string;
@@ -9,4 +11,8 @@ function greeter(person: Person) {
 
 var user = { firstName: "Jane", lastName: "User" };
 
-document.body.innerHTML = greeter(user);
+let str = greeter(user);
+
+console.info('add(1,2) = ' + add(1,2)) ;
+
+console.info("greeter : " + str) ;
