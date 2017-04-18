@@ -1,0 +1,41 @@
+// {
+//     "compilerOptions": {
+//         "module": "system",
+//         "noImplicitAny": true,
+//         "removeComments": true,
+//         "preserveConstEnums": true,
+//         "outDir": "./dist/",
+//         "allowJs": true,
+//         "target": "es5",
+//         "sourceMap": true
+//     },
+//     "include": [
+//         "src/**/*"
+//     ],
+//     "exclude": [
+//         "node_modules",
+//         "**/*.spec.ts"
+//     ]
+// }
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "allowJs": true,
+    "outDir": "./js/",
+    "target": "es5",
+    "jsx": "react"
+    //,"sourceMap": true
+  },
+  "include": [
+     "src/**/*"
+  ],
+  // "files": [
+  //   "src/index.tsx"
+  // ],
+  "exclude": [
+    "node_modules"
+  ]
+}
