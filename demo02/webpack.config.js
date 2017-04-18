@@ -1,3 +1,5 @@
+var path = require('path');
+
 module.exports = {
     entry:"./src/index.tsx",
     output: {
@@ -17,7 +19,14 @@ module.exports = {
         loaders: [
            // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'.
             {test: /\.tsx?$/, loader: "awesome-typescript-loader"},
-            {test: /\.js$/, loader: "babel"}
+            {
+                test: /\.js$/, 
+                loader: "babel",
+                include:  [
+                    path.resolve(__dirname,'./src')
+                ],
+                exclude: /node_modules/
+            }
         ]
     },
     
