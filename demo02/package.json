@@ -1,0 +1,9 @@
+{
+  "name": "typescript_stu2",
+  "version": "1.0.0",
+  "description": "typescript study",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "../node_modules/.bin/webpack"
+  }
+}
