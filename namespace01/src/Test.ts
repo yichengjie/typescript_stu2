@@ -2,6 +2,8 @@
 /// <reference path="LettersOnlyValidator.ts" />
 /// <reference path="ZipCodeValidator.ts" />
 
+//使用namespace后如何import，这个问题如何解决
+
 let strings = ["Hello", "98052", "101"];
 var validators :{[s:string]:Validation.StringValidator} = {} ;
 validators["ZIP code"] = new Validation.ZipCodeValidator() ;
