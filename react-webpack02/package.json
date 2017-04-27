@@ -4,6 +4,7 @@
   "description": "typescript study",
   "main": "index.html",
   "scripts": {
-    "dev": "webpack-dev-server --config build/webpack.config.dev  --port 3000"
+    "dev": "webpack-dev-server --config build/webpack.config.js  --port 3000",
+    "build": "webpack --config build/webpack.config.js"
   }
 }
