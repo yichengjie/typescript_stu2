@@ -8,3 +8,4 @@ built/
 dist/
 output/
 npm-debug.log
+tsout/
