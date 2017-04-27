@@ -4,6 +4,7 @@
         "module": "commonjs",
         "removeComments": true,
         "outDir": "./built",
+        "noImplicitThis":true,
         "allowJs": true,
         "target": "es5"
     },
