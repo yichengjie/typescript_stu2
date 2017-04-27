@@ -9,7 +9,6 @@ export interface HelloProps {
 // State is never set so we use the 'undefined' type.
 export class Hello extends React.Component<HelloProps, undefined> {
     render() {
-        console.info('-------------------------') ;
-        return (<h1>Hello from xx {this.props.compiler} and {this.props.framework}!</h1>);
+        return (<h1>Hello from {this.props.compiler} and {this.props.framework}!</h1>);
     }
 }
