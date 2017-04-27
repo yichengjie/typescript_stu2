@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "dev": "webpack-dev-server --inline --config build/webpack.config.dev.js --content-base build"
+  }
+}

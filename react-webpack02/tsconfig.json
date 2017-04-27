@@ -1,0 +1,22 @@
+{
+    // "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "removeComments": true,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "outDir": "./public/dist",
+        "noImplicitThis":true,
+        "noImplicitAny": true,
+        "allowJs": true,
+        "jsx": "react",
+        "target": "es5"
+    },
+    "include": [
+        "./src/index.tsx"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
