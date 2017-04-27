@@ -1,5 +1,9 @@
 {
+  "name": "typescript_stu2",
+  "version": "1.0.0",
+  "description": "typescript study",
+  "main": "index.html",
   "scripts": {
-    "dev": "webpack-dev-server --inline --config build/webpack.config.dev.js --content-base build"
+    "dev": "webpack-dev-server --config build/webpack.config.dev  --port 3000"
   }
 }
