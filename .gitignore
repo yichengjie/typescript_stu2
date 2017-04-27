@@ -4,6 +4,7 @@ bower_components
 .idea
 .vscode
 build/
+built/
 dist/
 output/
 npm-debug.log
