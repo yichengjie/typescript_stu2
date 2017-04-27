@@ -1,0 +1,19 @@
+{
+    // "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "removeComments": true,
+        "outDir": "./built",
+        "noImplicitThis":true,
+        "allowJs": true,
+        "target": "es5",
+        "experimentalDecorators": true
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
