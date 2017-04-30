@@ -24,7 +24,7 @@
     "removeComments": true,
     "preserveConstEnums": true,
     "allowJs": true,
-    "outDir": "./js/",
+    "outDir": "./tsout/",
     "target": "es5",
     "jsx": "react"
     //,"sourceMap": true

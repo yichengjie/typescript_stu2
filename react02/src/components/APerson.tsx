@@ -7,8 +7,9 @@ abstract class Animal {
         this.form.move = this.move;
     }
     abstract makeSound(): void;
-    private move = () => {
+    public move = () :string=> {
         console.info('abstract class Animal method [move()] is called ... ['+this.greeting+'] ') ;
+        return '' ;
     }
 }
 
@@ -16,7 +17,7 @@ class Zhangsan extends Animal{
     makeSound(){
         this.form.move() ;
     }
-    public move(){
+    public move = () => {
         return "" ;
     } 
 }
@@ -28,8 +29,8 @@ let myAdd: (baseValue:number, increment:number) => number = function(x: number, 
     return x + y;
  };
 
- let identity = function<T>(x: T): T {
-    // ...
-    T t =  T() ;
-    return t ;
-}
+//  let identity = function<T>(x: T): T {
+//     // ...
+//     T t =  T() ;
+//     return t ;
+// }
