@@ -1,4 +1,4 @@
-function foo(num){
+export function foo(num){
     console.info(`foo : ${num}`) ;
     //记录foo被调用的次数
     data.count ++ ;
